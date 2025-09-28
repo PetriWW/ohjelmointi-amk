@@ -8,9 +8,9 @@ def find_longest_word(words):
  
     for word in words:
         word_length = len(word)
-    if max_length > 5:
-        max_length = word_length
-        longest_word = word
+        if word_length > max_length:
+            max_length = word_length
+            longest_word = word
  
     return longest_word, max_length
 
