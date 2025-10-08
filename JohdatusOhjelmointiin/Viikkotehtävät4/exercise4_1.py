@@ -1,8 +1,10 @@
+import time
 
 # Print user information
-date = "12.8.2020"
-name = "Matti Meikäläinen"
-dob = 1989
-saldo = 100
+date = time.strftime("%d.%m.%Y")
+name = "Testi Henkilöinen"
+dob = 1982
+saldo = 1698
 
+# Print answer
 print(f"{name}, syntymävuosi {dob}, saldo: {saldo}€, päivitetty {date}")

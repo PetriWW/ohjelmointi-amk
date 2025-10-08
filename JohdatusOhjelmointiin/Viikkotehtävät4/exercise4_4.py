@@ -5,9 +5,10 @@ try:
     
     answer = num1 / num2
     print(answer)
-#    print answer
+
 except ValueError:
     print("Virheellinen muoto.")
+    
 except ZeroDivisionError:
     print("Nollalla ei saa jakaa.")
 else:
